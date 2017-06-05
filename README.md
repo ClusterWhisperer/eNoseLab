@@ -43,7 +43,7 @@ where,
 classification: {wine, banana, normal}
 </pre>
 
-- Data File Format(HT_Sensor_dataset.dat:
+- Data File Format(HT_Sensor_dataset.dat):
 <pre>
 id time       R1         R2         R3         R4         R5         R6         R7        R8        Temp.      Humidity
 0  -0.999750  12.862100  10.368300  10.438300  11.669900  13.493100  13.342300  8.041690  8.739010  26.225700  59.052800  
