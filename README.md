@@ -32,7 +32,7 @@ id  date        class   t0  dt
 6   07-11-15    wine    11.19   0.95
 ....
 </pre>
-where,
+`where,
     * id      = induction id
     * date    = induction date
     * class   = classification
@@ -40,7 +40,7 @@ where,
     * dt      = duration
 
 classification: {wine, banana, normal}
-
+`
 - Data File Format(HT_Sensor_dataset.dat:
 <pre>
 id time       R1         R2         R3         R4         R5         R6         R7        R8        Temp.      Humidity
@@ -52,14 +52,13 @@ id time       R1         R2         R3         R4         R5         R6         
 0  -0.998349  12.859400  10.369100  10.437600  11.670200  13.492100  13.338200  8.040880  8.740160  26.250300  58.958300  
 0
 </pre>
-where, 
+`where, 
     * id        = induction id
     * time      = reading time
     * R1..8     = MOX sensor readings
     * temp.     = temperature reading
-    * humidity  = humidity reading
-
-
+    * humidity  = humidity reading`
+    
 
 
 ## Citations:
