@@ -10,6 +10,9 @@ Motivated by the [paper](https://www.researchgate.net/publication/305385157_Onli
 
 We will be using the [UCI public dataset](https://archive.ics.uci.edu/ml/datasets/Gas+sensors+for+home+activity+monitoring) to simulate during this experiment.
 
+## High-level System
+
+![eNose System](img/eNose.jpg)
 
 ## Input Data
 
@@ -30,11 +33,11 @@ id  date        class   t0  dt
 ....
 </pre>
 where,
-    + id      = induction id
-    + date    = induction date
-    + class   = classification
-    + t0      = start time
-    + dt      = duration
+    * id      = induction id
+    * date    = induction date
+    * class   = classification
+    * t0      = start time
+    * dt      = duration
 
 classification: {wine, banana, normal}
 
@@ -50,11 +53,11 @@ id time       R1         R2         R3         R4         R5         R6         
 0
 </pre>
 where, 
-    + id        = induction id
-    + time      = reading time
-    + R1..8     = MOX sensor readings
-    + temp.     = temperature reading
-    + humidity  = humidity reading
+    * id        = induction id
+    * time      = reading time
+    * R1..8     = MOX sensor readings
+    * temp.     = temperature reading
+    * humidity  = humidity reading
 
 
 
