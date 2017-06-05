@@ -1,14 +1,15 @@
 ## eNoseLab Project
-### (Kafka + Spark Streaming + TensorFlow) 
+(Kafka + Spark Streaming + TensorFlow) 
 
 
 ## Objective:
 
-Motivated by the [paper](https://www.researchgate.net/publication/305385157_Online_decorrelation_of_humidity_and_temperature_in_chemical_sensors_for_continuous_monitoring) objective of this project is build an electronic nose that is able to classify different objects inducted before MOX sensors.
+Objective of this project is build an electronic nose that is able to identify different objects inducted before MOX sensors.
 
-We will using the [UCI public dataset](https://archive.ics.uci.edu/ml/datasets/Gas+sensors+for+home+activity+monitoring) to simulate during this experiment.
+Motivated by the [paper](https://www.researchgate.net/publication/305385157_Online_decorrelation_of_humidity_and_temperature_in_chemical_sensors_for_continuous_monitoring).
 
-Also, during this process we want to build an end-to-end pipeline that can be deployed on any cloud infrastructure.
+We will be using the [UCI public dataset](https://archive.ics.uci.edu/ml/datasets/Gas+sensors+for+home+activity+monitoring) to simulate during this experiment.
+
 
 ## Input Data
 
@@ -29,11 +30,11 @@ id  date        class   t0  dt
 ....
 </pre>
 where,
-    id      = induction id
-    date    = induction date
-    class   = classification
-    t0      = start time
-    dt      = duration
+    + id      = induction id
+    + date    = induction date
+    + class   = classification
+    + t0      = start time
+    + dt      = duration
 
 classification: {wine, banana, normal}
 
@@ -49,14 +50,14 @@ id time       R1         R2         R3         R4         R5         R6         
 0
 </pre>
 where, 
-    id        = induction id
-    time      = reading time
-    R1..8     = MOX sensor readings
-    temp.     = temperature reading
-    humidity  = humidity reading
+    + id        = induction id
+    + time      = reading time
+    + R1..8     = MOX sensor readings
+    + temp.     = temperature reading
+    + humidity  = humidity reading
 
 
-## Input Message form
+
 
 ## Citations:
 - Online Decorrelation of Humidity and Temperature in Chemical Sensors for Continuous Monitoring. Chemometrics and Intelligent Laboratory Systems 2016.
