@@ -64,6 +64,33 @@ where,
     
 </pre>
 
+
+## Gateway Similuator Output:
+
+<pre>
+{
+    "eventTime": "2015-09-17T01:38:55.172400",
+    "guid": "38412f32-e708-447c-8842-6d65357aac89",
+    "payload": {
+        "format": "urn:enose:gateway:summary",
+        "data": {
+            "R4": 12.1622,
+            "R5": 12.6346,
+            "R6": 17.294,
+            "R7": 6.22194,
+            "humid": 53.8299,
+            "R1": 12.6669,
+            "R2": 10.5765,
+            "R3": 10.7303,
+            "R8": 7.05763,
+            "temp": 27.9004
+        }
+    }
+}
+</pre>
+
+
+
 ## Citations:
 - Online Decorrelation of Humidity and Temperature in Chemical Sensors for Continuous Monitoring. Chemometrics and Intelligent Laboratory Systems 2016.
 presented by Ramon Huerta, Thiago Mosqueiro, Jordi Fonollosa, Nikolai Rulkov, Irene Rodriguez-Lujan.[paper](https://www.researchgate.net/publication/305385157_Online_decorrelation_of_humidity_and_temperature_in_chemical_sensors_for_continuous_monitoring)
