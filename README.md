@@ -11,6 +11,8 @@ Motivated by the [paper](https://www.researchgate.net/publication/305385157_Onli
 
 We will be using the [UCI public dataset](https://archive.ics.uci.edu/ml/datasets/Gas+sensors+for+home+activity+monitoring) to simulate during this experiment.
 
+Possible applications warehouse montoring, public bathroom automation :) etc. 
+
 ## High-level System
 
 ![eNose System](img/eNose.jpg)
