@@ -102,9 +102,9 @@ agent/simulated_mox_gateway.py -i 38412f32-e708-447c-8842-6d65357aac89 -d /input
 ## Stream processor Simulator:
 
 Key Functionalities:
-a) Use DataFrame to calculate aggregations.
-b) Identify the classification for given batch of events/guid.
-c) Store the raw events in datastore (parquet format, for offline analysis) 
+- Generate aggregations.
+- Identify the classification for given batch of events/guid.
+- Store the raw events in datastore (parquet format, for offline analysis) 
 
 ## Stream processor Output:
 
