@@ -5,7 +5,7 @@ Status: POC under construction
 
 ## Objective:
 
-Objective of this project is build an electronic nose that is able to identify different objects inducted before MOX sensors in real-time.
+Objective of this project is build an electronic nose that is able to sense different objects inducted before MOX sensors in real-time.
 
 Motivated by the [paper](https://www.researchgate.net/publication/305385157_Online_decorrelation_of_humidity_and_temperature_in_chemical_sensors_for_continuous_monitoring).
 
