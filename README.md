@@ -1,10 +1,11 @@
 ## eNose Project
 (Kafka + Spark Streaming + TensorFlow) 
 
+Status: POC under construction
 
 ## Objective:
 
-Objective of this project is build an electronic nose that is able to identify different objects inducted before MOX sensors.
+Objective of this project is build an electronic nose that is able to identify different objects inducted before MOX sensors in real-time.
 
 Motivated by the [paper](https://www.researchgate.net/publication/305385157_Online_decorrelation_of_humidity_and_temperature_in_chemical_sensors_for_continuous_monitoring).
 
@@ -65,7 +66,7 @@ where,
 </pre>
 
 
-## Gateway Similuator Output:
+## Gateway Simulator Output:
 
 Usage:
 <pre>
@@ -97,6 +98,13 @@ agent/simulated_mox_gateway.py -i 38412f32-e708-447c-8842-6d65357aac89 -d /input
 ...
 ]
 </pre>
+
+## Stream processor Simulator:
+
+Key Functionalities:
+a) Use DataFrame to calculate aggregations.
+b) Identify the classification for given batch of events/guid.
+c) Store the raw events in datastore (parquet format, for offline analysis) 
 
 ## Stream processor Output:
 
@@ -139,6 +147,8 @@ total 28
 -rw-r--r-- 1 root root 7782 Jun  6 23:51 part-00001-ba2c9cde-ecde-4c0b-9884-1bff530e8b5e.snappy.parquet
 -rw-r--r-- 1 root root 8937 Jun  6 23:51 part-00002-ba2c9cde-ecde-4c0b-9884-1bff530e8b5e.snappy.parquet
 </pre>
+
+
 
 ## Citations:
 - Online Decorrelation of Humidity and Temperature in Chemical Sensors for Continuous Monitoring. Chemometrics and Intelligent Laboratory Systems 2016.
